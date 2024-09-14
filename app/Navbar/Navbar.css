@@ -1,0 +1,40 @@
+.navbar{
+    
+    background-color: #323544;
+    height: 10vh;
+
+}
+.navbar-brand img{
+
+    width: 64px;
+    height: 50px;
+    
+}
+#finalNAv{
+    background-color: #323544 !important;
+}
+.item {
+    display:inline-block;
+    font-size: xx-small;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+
+}
+ .logo{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+
+}
+.collapse a{
+
+    color:rgb(255, 255, 255) ;
+}
+#sameh{
+    color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+background-color: rgb(135, 21, 21);
+}

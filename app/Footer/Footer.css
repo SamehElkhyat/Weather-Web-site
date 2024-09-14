@@ -1,0 +1,35 @@
+.footer{
+    margin-top: 30px;
+    position: absolute;
+    background-color: #323544;
+    border-radius: 20px;
+
+}
+.search {
+    position: relative;
+    background-color: #1e202b;
+    padding: 4px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+.searc{
+    background-color: #1e202b;
+
+   
+}
+.search-1 input {
+    height: 45px;
+    border: none;
+    width: 100%;
+    padding-left: 34px;
+    padding-right: 10px;
+}
+#SearchEngine{
+
+    border-radius: 30% !important;
+}
+
+
+
