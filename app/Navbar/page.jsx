@@ -19,6 +19,7 @@ import {
   Drawer,
 } from "@mui/material";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -46,52 +47,9 @@ export default function Navbar() {
       opacity: 1
     }
   };
-  const DrawerList = (    <>
 
-
-  <div className="text-danger fw-bold">
-
-  <Box sx={{ width: 300 }} role="presentation" onClick={toggleDrawer(false)}>
-      <List >
-
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-
-            <ListItemButton>
-
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem  key={text} disablePadding>
-
-            <ListItemButton>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-
-    </Box>
-
-  </div>
-    
-  </>    
-
-  );
   return (
     <>
-   <div>
-      <Drawer open={open} onClose={toggleDrawer(false)}>
-        {DrawerList}
-
-      </Drawer>
-    </div>
 
       <motion.Box initial={{opacity:0}}
     animate={{opacity:1,transition:{duration:0.7}}}
@@ -111,7 +69,8 @@ export default function Navbar() {
 
        
 <div className="ms-auto p-0">
-<Button id="sameh" className="text-danger" onClick={toggleDrawer(true)}>Side Menu</Button>
+<Link href='https://www.linkedin.com/in/sameh-salih-02179b271/'><Button id="sameh" className="hovers text-danger" onClick={toggleDrawer(true)}>About Us</Button>
+</Link>
             </div>
           </Toolbar>
         </AppBar>

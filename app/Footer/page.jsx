@@ -27,8 +27,8 @@ key={90909}
 
       <div className="text-center p-3">
       
-        © 2020 Copyright:
-        <a className="text-white" href="https://mdbootstrap.com/">
+        © 2024 Copyright:
+        <a className="text-white" href="https://www.linkedin.com/in/sameh-salih-02179b271/">
           SamehELkhayat.com
         </a>
       </div>

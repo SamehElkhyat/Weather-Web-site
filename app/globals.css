@@ -1,0 +1,9 @@
+.hovers{
+    color: rgb(255, 0, 0) !important;
+    transition: .3s ease-in-out !important;    
+    }
+    .hovers:hover{
+        color: rgb(255, 0, 0) !important;
+        box-shadow: inset 100vh 0 0 0 #000000 !important;;
+        
+        }
