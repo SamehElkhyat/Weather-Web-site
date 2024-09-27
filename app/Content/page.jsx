@@ -145,17 +145,16 @@ Global weather forecasts" />
           <MenuItem value={"Sohag"}>سوهاج</MenuItem>
           <MenuItem value={"Giza"}>الجيزه</MenuItem>
           <MenuItem value={"Qinā"}>قنا</MenuItem>
-          <MenuItem value={"Minya"}>المنيا</MenuItem>
+          <MenuItem value={"bani mazar"}>المنيا</MenuItem>
           <MenuItem value={"Sohag"}>سوهاج</MenuItem>
           <MenuItem value={"Qinā"}>قنا</MenuItem>
           <MenuItem value={"Aswan"}>اسوان</MenuItem>
           <MenuItem value={"Luxor"}>الأقصر</MenuItem>
           <MenuItem value={"Alexandria"}>الاسكندريه</MenuItem>
-          <MenuItem value={"Gharbia"}>الغربيه</MenuItem>
+          <MenuItem value={"tanta"}>الغربيه</MenuItem>
           <MenuItem value={"Port Said"}>بور سعيد</MenuItem>
           <MenuItem value={"Suez"}>السويس</MenuItem>
-          <MenuItem value={"Dakahlia"}>الدقهليه</MenuItem>
-          <MenuItem value={"monufia"}>المنوفيه</MenuItem>
+          <MenuItem value={"Shibin El Kom"}>المنوفيه</MenuItem>
           <MenuItem value={"Asyut"}>اسيوط</MenuItem>
           <MenuItem value={"Faiyum"}>الفيوم</MenuItem>
           <MenuItem value={"Sharqia"}>الشرقيه</MenuItem>
@@ -337,7 +336,7 @@ Extreme weather preparedness
 Global weather forecasts"
 src={umbrela}>
   </Image>
-  <span className='text-white text-center'>{pro.
+<span className='text-white text-center'>{pro.
 avghumidity
 }</span>
       </div>
